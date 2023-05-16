@@ -12,7 +12,6 @@ import Friends from "./components/Friends/Friends.jsx";
 import FriendDetail from "./components/FriendDetail/FriendDetail.jsx";
 import Posts from "./components/Posts/Posts.jsx";
 import PostDetail from "./components/PostDetail/PostDetail.jsx";
-import NotFound from "./components/NotFound/NotFound.jsx";
 
 // const router = createBrowserRouter([
 //   {
@@ -74,7 +73,7 @@ const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <NotFound></NotFound>
+        element: <Error></Error>
       },
     ],
   },
